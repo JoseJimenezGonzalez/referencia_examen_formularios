@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
     var esCodigoPostalCorrecto = false
     var esEdadValida = false
 
+    //Esta es para guardar la opcion seleccionada del spinner
     var opcionSeleccionada: String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
